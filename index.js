@@ -22,7 +22,7 @@ const generateHTML = async articleContent => {
 	const prompt = `
 The following is a plain text article. Convert it into structured HTML code. 
 - Use appropriate HTML tags (headings, paragraphs, lists if applicable).
-- Identify places for images and insert <img src="image_placeholder.jpg" alt="exact prompt for the image"> tags.
+- Identify places for images and insert <img src="public/image_placeholder.jpg" alt="exact prompt for the image"> tags.
 - Provide captions for the images using appropriate tags.
 - Do not include CSS or JavaScript.
 - Only include the content for the <body> section.
